@@ -100,7 +100,7 @@ const SearchComponent = () => {
         value={role} 
         onChange={handleRoleChange}
         disabled={!company}
-        style={{ padding: '11px', margin: '10px' }}
+        style={{ padding: '12px', margin: '10px' }}
       >
         <option value="">Select Role</option>
         {company && options[company].map((r, index) => (
